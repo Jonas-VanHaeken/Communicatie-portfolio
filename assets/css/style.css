@@ -92,7 +92,11 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #0078ff;
+  background-color: black;
+}
+
+.overlay-black {
+  background-color: black;
 }
 
 .overlay-mf {

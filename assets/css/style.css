@@ -755,6 +755,10 @@ a:hover {
   width: 70%; 
   height: auto;
 }
+
+video {
+  object-fit: contain;
+}
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
     margin-top: 3rem;
@@ -765,15 +769,15 @@ a:hover {
 .skill-mf span {
   color: #4e4e4e;
 }
-.skill-mf .progress {
-  background-color: #cde1f8;
-  margin: 0.5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: 0.7rem;
+
+.card > img {
+  width: 40px; 
+  height: 40px; 
+  margin:auto
 }
-.skill-mf .progress .progress-bar {
-  height: 0.7rem;
-  background-color: #0078ff;
+
+.card {
+  border: none;
 }
 
 /*--------------------------------------------------------------

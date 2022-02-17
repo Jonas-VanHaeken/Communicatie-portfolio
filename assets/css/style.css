@@ -759,6 +759,14 @@ a:hover {
 video {
   object-fit: contain;
 }
+
+@media (max-width:767px) {
+  video{
+    width: 100%;
+    height: auto;
+  }
+}
+
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
     margin-top: 3rem;
@@ -1308,13 +1316,4 @@ footer .credits {
 }
 footer .credits a {
   color: #fff;
-}
-
-/*--------------------------------------------------------------
-# video
---------------------------------------------------------------*/
-@media (max-width:800px){
-  video {
-
-  }
 }

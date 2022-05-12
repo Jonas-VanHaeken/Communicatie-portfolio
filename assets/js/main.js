@@ -223,7 +223,27 @@
   if (preloader) {
     window.addEventListener('load', () => {
       preloader.remove()
-    });
+    });' + i + '
   }
 
+
+
+
 })()
+
+for (var i = 1; i <= 6 ; i++) {
+  var project = document.getElementById('project' + i + 'Start');
+  var projectButton = document.getElementById('project' + i + 'Button');
+  setClickActionPortfolio(project, projectButton);
+}
+
+
+
+  function setClickActionPortfolio(start, button){
+    button.addEventListener('click', function() {
+      if(start){
+        start.click();
+      }
+    }
+    );
+  }

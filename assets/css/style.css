@@ -153,6 +153,14 @@ a:hover {
   text-transform: uppercase;
 }
 
+.title-b {
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
 .subtitle-a {
   text-decoration: none;
   color: #4e4e4e;
@@ -658,6 +666,16 @@ a:hover {
   display: block;
 }
 
+.portfolio-lightbox > img {
+  height: 15em;
+  object-fit: cover;
+}
+
+.w-like > button {
+  background: #0078ff;
+}
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -892,15 +910,17 @@ video {
   color: #0078ff;
   float: right;
 }
-.work-content .w-like a {
-  color: #0078ff;
-}
+
 .work-content .w-like .num-like {
   font-size: 0.7rem;
 }
 
 .w-title {
   font-size: 1.2rem;
+}
+
+map {
+  cursor: pointer;
 }
 
 /*--------------------------------------------------------------
